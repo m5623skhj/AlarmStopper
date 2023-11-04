@@ -6,13 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <Button
+        android:id="@+id/stopAlarmButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="258dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="208dp"
+        android:text="Stop All Alarm"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/addDivceButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="258dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="648dp"
+        android:text="Add Device"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
