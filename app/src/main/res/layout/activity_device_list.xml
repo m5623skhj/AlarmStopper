@@ -6,4 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".DeviceListActivity">
 
+    <Button
+        android:id="@+id/goToMainButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="114dp"
+        android:text="Go To Main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
