@@ -12,7 +12,7 @@ class DeviceListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_device_list)
 
-        val goToMainButton = findViewById<Button>(R.id.addDivceButton)
+        val goToMainButton = findViewById<Button>(R.id.goToMainButton)
         goToMainButton.setOnClickListener {
             val mainActivity = Intent(this, MainActivity::class.java)
             startActivity(mainActivity)
