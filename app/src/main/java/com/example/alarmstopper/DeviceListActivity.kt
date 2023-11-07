@@ -18,5 +18,12 @@ class DeviceListActivity : AppCompatActivity() {
             startActivity(mainActivity)
             finish()
         }
+
+        val refreshButton = findViewById<Button>(R.id.refreshButton)
+        refreshButton.setOnClickListener {
+            val currentActivity = Intent(this, DeviceListActivity::class.java)
+            startActivity(currentActivity)
+            finish()
+        }
     }
 }

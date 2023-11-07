@@ -10,12 +10,21 @@
         android:id="@+id/goToMainButton"
         android:layout_width="150dp"
         android:layout_height="70dp"
-        android:layout_marginBottom="4dp"
         android:text="Go To Main"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.893" />
+        app:layout_constraintVertical_bias="0.818" />
+
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Refresh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goToMainButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
