@@ -1,4 +1,4 @@
-package com.example.alarmstopper
+package com.alarmstopper
 
 import org.junit.Test
 
